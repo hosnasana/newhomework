@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=" hosna shirinsokhan" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" >
+   <title>hosna shirinsokhan</title> 
+   <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+
+           background-color: #EEE0C9;
+    
+        }
+    .navbar {
+        background-color: #94B49F;
+        text-align: center;
+        flex-direction: row;
+    }
+    .nav-list{
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .nav-list li{
+        padding: 5px;
+    
+    }
+    
+    
+    .nav-list li a:hover{ 
+        color:rgb(41, 41, 41);
+    }
+
+
+    .color-change {
+    background-color: #ECB390; /* original button color*/
+border-radius: 20px;
+    color: #94B49F;
+text-align: center;
+text-decoration: dashed;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+padding: 10px 15px;
+transition: background-color 0.3s; /* color change transition duration*/
+transition: color 0.3s; /* text color change transition duration*/
+}
+
+
+ .color-change:hover{
+    background-color: #a9e639; /* change the color in hover */
+    color: white;
+}
+
+
+
+    #test {
+    text-align: center;
+    margin: 10px;
+    color: black;
+    top: 40px;
+    font-family: cursive;
+}
+.sana88 {
+    text-align: center;
+    color: black;
+    list-style-type: none;
+    font-family: cursive;
+}
+ div ul li{
+    text-align: center;
+    padding: 0;
+ }
+ div ul li {
+    list-style-type: none;
+ }
+ .image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #F0F0CB;
+    border-radius: 20px;
+   }
+
+
+.image-container img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 350px;
+}
+.image-container:hover img {
+    transform: scale(1.1); /* اندازه بزرگ‌نمایی را می‌توانید تنظیم کنید */
+
+}
+.image-container {
+    position:relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+
+
+
+.Image-container1 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #F0F0CB;
+    border-radius: 20px;
+}
+
+.Image-container1 img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 350px;
+}
+
+.Image-container1:hover img {
+    transform: scale(1.1); /* اندازه بزرگ‌نمایی را می‌توانید تنظیم کنید */
+
+}
+.Image-container1 {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.Image-container1:hover .overlay2 {
+    opacity: 1;
+}
+
+.overlay2 img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Image-container2 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #F0F0CB; ;
+    border-radius: 20px;
+}
+
+.Image-container2 img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 350px;
+}
+
+.Image-container2:hover img {
+    transform: scale(1.1); /* اندازه بزرگ‌نمایی را می‌توانید تنظیم کنید */
+
+}
+.Image-container2 {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.Image-container2:hover .overlay3 {
+    opacity: 1;
+}
+
+.overlay3 img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+
+.sana2024 {
+    text-align: center;
+}
+
+
+
+.sana {
+    position: relative;
+    text-align: center;
+    padding: 20PX;
+    transition: text-color; /* text color change transition duration*/
+}
+    
+
+.sana:hover {
+    color: black; /* change the color in hover*/
+}
+
+main {
+    flex: 1;
+   
+}
+
+
+
+
+ footer {
+    padding: 10px 0;
+    width: 100;
+    position: sticky;    
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 5;
+    background-color: black; 
+    color: white; 
+    text-align: center;
+    
+ }
+
+
+
+    
+        </style>
+    </head>
+    <body>
+       <nav class="navbar">
+<ul class="nav-list">
+    <li> <a href="index.html"><button class="color-change"><img src="images/home.png" alt="" width=" 17px" height="17px"> home</button></a></li>
+    <li><a href="movie.html"><button class="color-change"> <img src="images/film-tape.png" alt="" width="17px" height="17px"> Films</button></a></li>
+
+</ul>
+       </nav>
+        
+        <!-- Your website content goes here -->
+        
+<section id="test">
+        <h2> Outstansing Movie</h2>
+    </section>
+<img src="images/photo_2024-03-10_18-37-51.jpg" alt="" height="100%" width="100%" class="image-example">
+    <div>
+        <ul>
+            <li><a href="brows.html">search for further information</a></li>
+        </ul>
+        </div>
+        <div>
+         <ul>
+            <li class="sana88">
+    <strong>search the <img src="images/film-tape.png" alt=""  width="17px" height="17px"> Films</strong>
+            </li>
+        </ul>
+        </div>   
+
+
+<div class="sana2024">
+
+
+        <figure class="image-container">
+            <img src="images/photo_2024-03-10_18-37-51.jpg" alt="">
+            <figcaption class="sana"><a href="movie details.html" class="sana1234">title:</a></figcaption>
+            <div class="overlay">
+               <a href="movie details 2.html"> <img src="images/8664809_circle_play_icon.png" alt="play Icon"></a>
+            </div>
+        </figure>
+<figure class="Image-container1">
+    <img src="images/photo_2024-03-10_18-37-22.jpg" alt="">
+            <figcaption class="sana"><a href="movie details.html">title:</a></figcaption>
+            <div class="overlay2">
+               <a href="movie details 3.html"> <img src="images/8664809_circle_play_icon.png" alt="play Icon"></a>
+            </div>
+</figure>
+       <figure class="Image-container2">
+        <img src="images/photo_2024-03-10_18-37-52.jpg" alt="">
+<figcaption class="sana"><a href="movie details.html">title:</a></figcaption>
+<div class="overlay3">
+   <a href="movie details.html"> <img src="images/8664809_circle_play_icon.png" alt="play icon"></a>
+</div>
+       </figure> 
+       </div>
+
+
+       <main>
+        .
+     </main>
+     <footer>
+         &copy; ©2024گنجینه سینما 
+     </footer> 
+ 
+</body>
+</html>

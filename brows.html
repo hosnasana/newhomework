@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #F7DED0;
+            
+        }
+    .navbar {
+        background-color:#1F4E5F ;
+        text-align: center;
+        flex-direction: row;
+    }
+    .nav-list{
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .nav-list li{
+        padding: 10px;
+    
+    }
+    
+    
+    .nav-list li a:hover{ 
+        color:rgb(41, 41, 41);
+    }
+    .color-change {
+    background-color: #e6c50c; /* original button color*/
+border-radius: 20px;
+    color: rgb(13, 122, 77);
+text-align: center;
+text-decoration: dashed;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+padding: 10px 15px;
+transition: background-color 0.3s; /* color change transition duration*/
+transition: color 0.3s; /* text color change transition duration*/
+}
+
+
+ .color-change:hover{
+    background-color: #a9e639; /* change the color in hover */
+    color: white;
+}
+
+
+
+.video-iframe {
+    flex-direction: column;
+}
+
+.video-iframe { 
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+ 
+.center { 
+    text-align: center;
+}
+
+main {
+    flex: 1;
+   
+}
+ footer {
+    padding: 10px 0;
+    width: 100;
+    position: sticky;    
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 5;
+    background-color: black; 
+    color: white; 
+    text-align: center;
+    
+ }
+
+        </style>
+    </head>
+    <body>
+       <nav class="navbar">
+<ul class="nav-list">
+    <li> <a href="index.html"> <button class="color-change"> <img src="images/home.png" alt="" width="17px" height="17px"> home</button></a></li>
+    <li><a href="movie.html"> <button class="color-change"> <img src="images/film-tape.png" alt=""  width="17px" height="17px"> Films</button></a></li>
+
+</ul>
+       </nav>
+        
+        <!-- Your website content goes here -->
+<div class="center">
+       
+
+    <iframe class="video-iframe" width="1200" height="1000" src="https://www.youtube.com/embed/FUXawkH-ONM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<main>
+   .
+</main>
+<footer>
+    &copy; ©2024گنجینه سینما 
+</footer>
+       
+        </body>
+        </head>

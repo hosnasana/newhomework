@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { 
+    margin: 0;
+    padding: 0;
+    background-color: #543E5C;
+    background-image: url(images/OIP.jfif);
+    }
+
+
+
+
+    .navbar {
+        background-color: #FFF0F8;
+        text-align: center;
+        flex-direction: row;
+        border-radius: 10px;
+    }
+    .nav-list{
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .nav-list li{
+        padding: 10px;
+    
+    }
+    
+    
+    .nav-list li a:hover{ 
+        color:rgb(41, 41, 41);
+   }
+
+   .color-change {
+    background-color: #e1afd1; /* original button color*/
+border-radius: 20px;
+    color: #344955(13, 122, 77);
+text-align: center;
+text-decoration: dashed;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+padding: 10px 15px;
+transition: background-color 0.3s; /* color change transition duration*/
+transition: color 0.3s; /* text color change transition duration*/
+}
+
+
+ .color-change:hover{
+    background-color: #CCA2E1; /* change the color in hover */
+    color: #30475E;
+}
+
+
+
+
+
+
+
+.image-container {
+    position: fixed;
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 4px #e1afd1;
+    background-color: #CCA2E1;
+   
+}
+
+.image-container img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.image-container:hover img {
+    transform: scale(1.1); /* اندازه بزرگ‌نمایی را می‌توانید تنظیم کنید */
+
+}
+.image-container {
+    position:relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+
+
+
+.Image-container1 {
+    position: fixed;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #679186;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.Image-container1 img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 350px;
+}
+
+.Image-container1:hover img {
+    transform: scale(1.1); /* اندازه بزرگ‌نمایی را می‌توانید تنظیم کنید */
+
+}
+.Image-container1 {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.Image-container1:hover .overlay2 {
+    opacity: 1;
+}
+
+.overlay2 img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Image-container2 {
+    position: fixed;
+    display: inline-block;
+    overflow: hidden;
+    background-color: black;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.Image-container2 img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 350px;
+}
+
+.Image-container2:hover img {
+    transform: scale(1.1); /* اندازه بزرگ‌نمایی را می‌توانید تنظیم کنید */
+
+}
+.Image-container2 {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.Image-container2:hover .overlay3 {
+    opacity: 1;
+}
+
+.overlay3 img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+
+
+
+
+
+.sana {
+    position: relative;
+    text-align: center;
+    padding: 20PX;
+}
+    
+
+.image-container{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #CCA2E1;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.image-container img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 350px;
+}
+
+.image-container:hover img {
+    transform: scale(1.1); /* اندازه بزرگ‌نمایی را می‌توانید تنظیم کنید */
+
+}
+.image-container {
+    position:relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+   
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+
+
+
+.Image-container1 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #CCA2E1;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.Image-container1 img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 350px;
+}
+
+.Image-container1:hover img {
+    transform: scale(1.1); /* اندازه بزرگ‌نمایی را می‌توانید تنظیم کنید */
+
+}
+.Image-container1 {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.Image-container1:hover .overlay2 {
+    opacity: 1;
+}
+
+.overlay2 img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Image-container2 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #CCA2E1;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.Image-container2 img {
+    transition: transform 0.3s;
+    width: 300px;
+    height: 350px;
+}
+
+.Image-container2:hover img {
+    transform: scale(1.1); /* اندازه بزرگ‌نمایی را می‌توانید تنظیم کنید */
+
+}
+.Image-container2 {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #CCA2E1;
+}
+
+.Image-container2:hover .overlay3 {
+    opacity: 1;
+}
+
+.overlay3 img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+
+.sana2024 {
+    text-align: center;
+}
+
+
+
+
+
+.sana {
+    position: relative;
+    text-align: center;
+    padding: 20PX;
+}
+    
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 8px 15px;
+border: hwb(hue white black);
+border-style: dashed;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #CCA2E1; /* Change color in hover*/
+}
+
+
+.sana2024 {
+    text-align: center;
+}
+
+
+
+
+main {
+    flex: 1;
+   
+}
+ footer {
+    padding: 10px 0;
+    width: 100;
+    position: sticky;    
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 5;
+    background-color: black; 
+    color: white; 
+    text-align: center;
+    
+ }
+
+
+
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li> <a href="index.html"> <button class="color-change"><img src="images/home.png" alt="" width="17px" height="17px"> home</button></a></li>
+            <li><a href="movie.html"><button class="color-change"><img src="images/film-tape.png" alt="" height="17px" width="17px"> Films</button></a></li>
+        
+        </ul>
+        </nav>
+                
+        <!-- Your website content goes here -->
+
+
+
+<div class="sana2024">
+<figure class="image-container">
+            <img src="images/photo_2024-03-10_18-37-51.jpg" alt="">
+            <figcaption class="sana"><a href="movie details.html">title:</a></figcaption>
+            <div class="overlay">
+               <a href="movie details 2.html"> <img src="images/8664809_circle_play_icon.png" alt="play Icon"></a>
+            </div>
+        </figure>
+<figure class="Image-container1">
+              <a href=""> <img src="images/photo_2024-03-10_18-37-22.jpg" alt=""></a>
+            <figcaption class="sana"><a href="movie details.html">title:</a></figcaption>
+            <div class="overlay2">
+              <a href="movie details 3.html"> <img src="images/8664809_circle_play_icon.png" alt="play Icon"></a> 
+            </div>
+</figure>
+       <figure class="Image-container2">
+       <img src="images/photo_2024-03-10_18-37-52.jpg" alt="">
+<figcaption class="sana"><a href="">title:</a></figcaption>
+<div class="overlay3">
+   <a href="movie details.html"> <img src="images/8664809_circle_play_icon.png" alt="play icon"></a>
+</div>
+
+       </figure> 
+
+
+</div>
+
+
+       <br>
+
+<div class="center">
+<button class="btn">⋘</button>
+<button class="btn">1</button>
+<button class="btn">2</button>
+<button class="btn">3</button>
+<button class="btn">⋙</button>
+</div>
+
+
+
+
+<main>
+    .
+ </main>
+ <footer>
+     &copy; ©2024گنجینه سینما 
+ </footer> 
+
+</body>
+</html>
